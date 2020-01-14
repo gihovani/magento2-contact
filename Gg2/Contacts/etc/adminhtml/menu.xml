@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gg2_Contacts::unique_identifier"
+             resource="Gg2_Contacts::unique_identifier"
+             title="My Contacts"
+             action="gg2_contacts/index/index"
+             module="Gg2_Contacts"
+             sortOrder="999"
+             parent="Magento_Backend::content"
+             dependsOnModule="Magento_Backend"/>
+    </menu>
+</config>
